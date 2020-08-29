@@ -1,17 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from "./Sidebar/Sidebar";
 
 function App() {
   return (
     <div className="app">
-      <h1>Hello</h1>
 
       {/* Sidebar */}
+
+      <Sidebar />
 
       {/* Feed */}
 
       {/* Widgets */}
+
     </div>
   );
 }
