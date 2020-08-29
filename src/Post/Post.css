@@ -1,0 +1,60 @@
+.post {
+    padding: 20px;
+    border-bottom: 1px solid var(--twitter-border-color);
+    display: flex;
+    transition: background-color 0.2s;
+}
+
+.post:hover {
+    background-color: #172330;
+}
+
+.post__avatar {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.post__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.post__head {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.post__head > h3 {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.post__head > .post__head__twitterName {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.post__head > span {
+    margin: 0 8px 0 8px;
+    opacity: 0.5;
+}
+
+.post__head > .post__head__timestamp {
+    opacity: 0.5;
+}
+
+.post__content > img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.post__footer {
+    display: flex;
+    left: 0;
+    width: 80%;
+    justify-content: space-between;
+    opacity: 0.5;
+    margin-top: 8px;
+}

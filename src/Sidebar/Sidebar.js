@@ -10,7 +10,7 @@ import { Button } from "@material-ui/core";
 function Sidebar() {
     return (
         <div class="sidebar">
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon className="sidebar__twitterIcon" icon={faTwitter} />
 
             <SidebarOption active icon={faHome} text="Accueil"/>
             <SidebarOption icon={faHashtag} text="Explorer"/>

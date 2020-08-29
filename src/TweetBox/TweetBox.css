@@ -1,0 +1,60 @@
+.tweetbox {
+    padding-bottom: 10px;
+    border-bottom: 10px solid rgba(29, 161, 242, 0.20);
+}
+
+.tweetbox > form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+
+}
+
+.tweetbox__input {
+    display: flex;
+}
+
+.tweetbox__input > .MuiAvatar-root {
+    width: 50px;
+    height: 50px;
+}
+
+.tweetbox__input > input {
+    background-color: var(--twitter-background);
+    margin-left: 15px;
+    font-size: 20px;
+    flex: 1;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.tweetbox__input > input:focus::placeholder,
+.tweetbox__inputImage:focus::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.tweetbox__inputImage {
+    background-color: var(--twitter-background);
+    padding: 20px 20px 20px 0;
+    font-size: 18px;
+    flex: 1;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.tweetbox__tweetButton {
+    background-color: var(--twitter-color) !important;
+    border-radius: 30px !important;
+    color: white !important;
+    text-transform: none !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    margin-left: auto !important;
+    width: 120px;
+}
+
+.tweetbox__tweetButton:hover {
+    background-color: var(--twitter-color-hover) !important;
+}
