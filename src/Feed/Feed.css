@@ -1,5 +1,4 @@
 .feed {
-    /* flex: 0.65; */
     border-right: solid 1px var(--twitter-border-color);
     border-left: solid 1px var(--twitter-border-color);
     min-width: fit-content;
@@ -23,6 +22,3 @@
     font-size: 20px;
     font-weight: 800;
 }
-/* 
-.feed__content {
-} */
