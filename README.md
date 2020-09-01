@@ -2,7 +2,7 @@
 
 Personal project. <br />
 I love making apps, I also wanted to test Firebase for the first time and improve my ReactJS skills. <br/>
-I follow the BEM naming convention.
+I'm following the BEM naming convention.
 
 ## Live demo ! 
 
