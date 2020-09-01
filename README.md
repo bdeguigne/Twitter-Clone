@@ -14,3 +14,7 @@ I follow the BEM naming convention.
 npm install
 npm start
 ```
+
+## GIF Preview
+
+![Twitter Clone GIF](https://github.com/bdeguigne/Twitter-Clone/blob/master/public/readme/twitter-clone.gif)
