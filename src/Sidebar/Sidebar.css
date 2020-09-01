@@ -1,10 +1,8 @@
 .sidebar {
-    border-right: solid 1px var(--twitter-border-color);
+    position: fixed;
     padding-left: 20px;
     padding-right: 20px;
-    flex: 0.2;
     min-width: 250px;
-    /* margin-top: 20px; */
 }
 
 .sidebar__twitterIcon {
