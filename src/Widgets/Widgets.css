@@ -1,3 +1,35 @@
 .widgets {
-    flex: 0.2;
+    flex: 0.3;
+    padding: 5px 30px 5px 30px;
+}
+
+.widgets__input {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    background-color: #253341;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.widgets__input > svg {
+    margin-left: 15px;
+    opacity: 0.3;
+    font-size: 18px;
+}
+
+.widgets__input > input { 
+    background-color: #253341;
+    border:none;
+    outline:none;
+    color: white;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#twitter-widget-0 {
+    border-radius: 15px !important ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.50);
+    /* box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.25); */
 }

@@ -9,7 +9,7 @@ import { Button } from "@material-ui/core";
 
 function Sidebar() {
     return (
-        <div class="sidebar">
+        <div className="sidebar">
             <FontAwesomeIcon className="sidebar__twitterIcon" icon={faTwitter} />
 
             <SidebarOption active icon={faHome} text="Accueil"/>
